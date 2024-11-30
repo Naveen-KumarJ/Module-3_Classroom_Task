@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Detail Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <!-- Section-1 -->
+            <legend>Personal details</legend>
+            <label for="salutation">
+                Salutation <br>
+                <select name="salutation" id="salutation">
+                    <option value="" selected >--None--</option>
+                    <option value="Mr.">Mr.</option>
+                    <option value="Mrs.">Mrs.</option>
+                </select>
+            </label>
+            <br> <br>
+            <label for="firstname">
+                First Name: <input type="text" name="firstname" id="firstname" placeholder="abcd">
+            </label>
+            <br><br>
+            <label for="lastname">
+                Last Name: <input type="text" name="lastname" id="lastname" placeholder="abcd">
+            </label>
+            <br><br>
+            <label for="gender">
+                Gender: 
+                <input type="radio" name="gender" value="male" id="male"> <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female"> <label for="female">Female</label>
+            </label>
+            <br><br>
+            <!-- Section-2 -->
+            <label for="email">Email:<input type="email" name="email" id="email" value="abc@gmail.com"></label>
+            <br><br>
+            <label for="dob">Date of birth:<input type="date" name="dob" id="dob"></label>
+            <br><br>
+            <label for="address">
+                Address: <br> <textarea name="address" id="address" rows="5" cols="30"></textarea>
+            </label>
+            <br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>

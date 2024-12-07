@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: lightcoral;
+}
+nav{
+    background-color: green;
+}
+.hero{
+    background-color: yellow;
+}
+nav>ul{
+    width: 70%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    background:linear-gradient(black,rgb(95,95,95));
+    padding: 35px 30px;
+    height: 12vh;
+}
+.hero{
+    height: 72vh;
+    background: url(./images/desktop-wallpaper-construction-site-construction-work.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+}
+.images>img{
+    width: 450px;
+    height: 450px;
+}
+.images{
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.end-part{
+    background-color: black;
+    height: 70vh;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+.content{
+    padding-left: 30px;
+    width: 45%;
+    align-self: flex-end;
+}
+.footer-img>img{
+    width: 700px;
+    height: 460px;
+    margin-bottom: 15px;
+}

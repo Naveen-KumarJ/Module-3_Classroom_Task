@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EDD4D4;
+}
+
+/* Header Section CSS */ 
+header{
+    background-color: green;
+    height: 300px;
+    background: url(./assets/e1c23ac34847740f672717c89a62ae37.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 8px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>input{
+    width: 70vw;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(99, 18, 18, 1);
+    border: none; 
+}
+nav{
+    display: block;
+    position: sticky;
+    top: 10px;
+    bottom: 0px;
+}
+
+/* Main Section CSS */
+    /* -> Image Section CSS */
+.image-card{
+    height: 40vh;
+}
+.image-card>.card>img{
+    width: 150px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    box-shadow: 0px 8px 8px black;
+}
+.image-card>.card>img:hover{
+    box-shadow: 0px 8px 8px 8px rgba(0, 0, 0,0.9);
+}
+.image-card>.card>h4{
+    margin-top: 15px;
+}
+.image-card>.card{
+    text-align: center;
+    color: rgb(99, 18, 18, 1);
+}
+.image-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+    /* -> coffee-House Content Section and Coffee-List-content-Section CSS  */
+.coffee-house-content, .coffee-list-content{
+    display: flex;
+    justify-content: center;
+}
+.coffee-house-content>.content, .coffee-list-content>.content{
+    color: #A52A2A;
+    width: 90%;
+    padding: 30px 30px 20px 30px;
+    border-radius: 5px;
+    background-color: #D7A1A1;
+    box-shadow: 0px 0px 8px brown;
+}
+.coffee-house-content>.content>p{
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.coffee-list-content>.content>p{
+    line-height: 20px;
+    margin-top: 30px;
+}
+.coffee-list-content>.content>ol>li{
+    margin-top: 10px;
+}
+.coffee-list-content{
+    margin: 60px 0;
+}

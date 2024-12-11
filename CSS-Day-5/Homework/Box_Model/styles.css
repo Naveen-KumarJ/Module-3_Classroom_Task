@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    border: 3px solid red;
+}
+.context{
+    padding: 30px 6px 10px 6px;
+}
+h1{
+    font-weight: bolder;
+}
+h1,p,li,.list, button, a{
+    border: 3px solid red;
+    padding: 8px;
+}
+
+h1, p, .list{
+    margin-bottom: 20px;
+}
+

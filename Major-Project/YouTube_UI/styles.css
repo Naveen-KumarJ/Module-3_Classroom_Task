@@ -156,7 +156,7 @@ main{
 }
 .sidebar-part{
     width: 20%;
-    overflow-y: hidden;
+    overflow: hidden;
     padding: 20px;
 }
 .sidebar-part:hover{

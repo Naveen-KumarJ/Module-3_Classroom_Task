@@ -151,6 +151,7 @@ nav{
 /* Main CSS */
 main{
     height: 89vh;
+    width: 100vw;
     display: flex;
 }
 .sidebar-part{

@@ -151,7 +151,6 @@ nav{
 /* Main CSS */
 main{
     height: 89vh;
-    width: 100vw;
     display: flex;
 }
 .sidebar-part{
@@ -165,7 +164,7 @@ main{
     scrollbar-width: thin;
 }
 .main-videos-part{
-    width: 79%;
+    width: 80%;
     height: 100%;
 }
 
